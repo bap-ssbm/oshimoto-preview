@@ -1,0 +1,249 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+    height: 250dvh;
+    min-height: 1280px;
+    box-sizing: border-box;
+    margin-bottom: 3vh;
+}
+.img-wrapper{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------- 1st photo *--------*/
+.first-photo{
+    height: 350dvh;
+}
+
+.img1-wrapper>img{
+    width: 100%;
+    
+}
+.img1-wrapper{
+    width:28%;
+    max-height: 40%;
+}
+
+.img1-hp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap:0;
+    height: fit-content;
+    align-self: center;
+}
+.img1-hp>div{
+    display: flex;
+    height: fit-content;
+}
+
+.img1-hp-wrapper{
+    height: 100dvh;
+}
+.pic-description{
+    position: relative;
+    z-index: 2;
+    padding: 5%;
+    line-height: 1.5;
+    
+}
+.pic-desc-wrapper{
+    padding: 50px;
+}
+.allegeria-img1-wrapper{
+    width:100%;
+}
+.allegeria-img1-wrapper-wrapper{
+    width: 37%;
+    min-height: 70dvh;
+    position: relative;
+    left: -8%;
+}
+.hoverTxt1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+}
+.allegeria-img1{
+    width: 100%;
+}
+
+
+.pic-description>h1{
+    font-size: 23px;
+}
+.pic-description>p{
+    font-size: 18px;
+    margin: 3px;
+}
+
+.second-photo{
+    width: 100%;
+}
+.portfolio-showcase1{
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    margin-top: 10dvh;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 3%;
+}
+.portrait-showcase-img1{
+    max-width: 70%;
+}
+.img-wrapper-portfolio-showcase1{
+    width: 100%;
+}
+.porfolio-img-protector1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 980px) {
+    .first-photo{
+        height: fit-content;
+        padding-bottom: 10%;
+    }
+    .img1-hp>div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+       
+    }
+    .allegeria-img1-wrapper-wrapper{
+        width: 70%;
+        min-height: 70dvh;
+        position: relative;
+        left: 0%;
+    }
+   
+}
+@media (max-width: 740px) {
+
+    .img1-hp>div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+       
+    }
+    .allegeria-img1-wrapper-wrapper{
+        width: 70%;
+        min-height: 70dvh;
+        position: relative;
+        left: 0%;
+    }
+    .portfolio-showcase1{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+    .portrait-showcase-img1{
+        width: 50%;
+    }
+}
+
+/*----------------- 2nd photo *--------*/
+
+.pic-desc-2{
+  position: absolute;
+}
+
+.img2-hp>img{
+    max-height: 90dvh;
+    width: 98%;
+}
+@media (max-width: 980px){
+    .img2-hp>img{
+        max-height: 90dvh;
+        width: 90dvw;
+    }
+}
+/*----------------- 3rd photo *--------*/
+
+.pic-desc-3{
+  position: absolute;
+}
+
+
+.img3-hp>img{
+    max-height: 90dvh;
+    width: 98%;
+}
+@media (max-width: 980px){
+    .img3-hp>img{
+        max-height: 90dvh;
+        width: 90dvw;
+    }
+}
+
+.portfolio-showcase-img-3{
+    width: 100%;
+}
+.portfolio-showcase-wrapper3{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    position: relative;
+    padding: 2%;
+    margin-top: 40vh;
+    gap: 2%;
+}
+.portfolio-showcase-img-3-wrapper{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.portfolio-showcase-img-3{
+    width: 30%;
+}
+.portfolio-showcase-img-3-2{
+    align-self: center;
+}
+.portfolio-showcase-img-3-3{
+    align-self: end;
+}
+@media (max-width: 980px){
+    .third-photo{
+        height: fit-content;
+    }
+
+    .portfolio-showcase-img-3{
+        width: 80%;
+        max-width: 500px;
+    }
+    .portfolio-showcase-img-3-wrapper{
+        align-items: center;
+    }
+    .portfolio-showcase-img-3-3{
+        align-self: center;
+    }
+    .pic-desc-3{
+        position: relative;
+    }
+    .portfolio-showcase-wrapper3{
+        margin-top: 50%;
+    }
+}
+
